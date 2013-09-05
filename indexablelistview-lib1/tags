@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BuildConfig	gen/com/hb/views/pinnedsection/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+DEBUG	gen/com/hb/views/pinnedsection/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+PinnedSectionListAdapter	src/com/hb/views/PinnedSectionListView.java	/^	public static interface PinnedSectionListAdapter extends ListAdapter {$/;"	i	class:PinnedSectionListView
+PinnedSectionListView	src/com/hb/views/PinnedSectionListView.java	/^	public PinnedSectionListView(Context context, AttributeSet attrs) {$/;"	m	class:PinnedSectionListView
+PinnedSectionListView	src/com/hb/views/PinnedSectionListView.java	/^	public PinnedSectionListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:PinnedSectionListView
+PinnedSectionListView	src/com/hb/views/PinnedSectionListView.java	/^public class PinnedSectionListView extends ListView {$/;"	c
+PinnedViewShadow	src/com/hb/views/PinnedSectionListView.java	/^	static class PinnedViewShadow {$/;"	c	class:PinnedSectionListView
+com.hb.views	src/com/hb/views/PinnedSectionListView.java	/^package com.hb.views;$/;"	p
+com.hb.views.pinnedsection	gen/com/hb/views/pinnedsection/BuildConfig.java	/^package com.hb.views.pinnedsection;$/;"	p
+createPinnedShadow	src/com/hb/views/PinnedSectionListView.java	/^	private void createPinnedShadow(int position) {$/;"	m	class:PinnedSectionListView	file:
+destroyPinnedShadow	src/com/hb/views/PinnedSectionListView.java	/^	private void destroyPinnedShadow() {$/;"	m	class:PinnedSectionListView	file:
+dispatchDraw	src/com/hb/views/PinnedSectionListView.java	/^	protected void dispatchDraw(Canvas canvas) {$/;"	m	class:PinnedSectionListView
+findCurrentSectionPosition	src/com/hb/views/PinnedSectionListView.java	/^	private int findCurrentSectionPosition(int fromPosition) {$/;"	m	class:PinnedSectionListView	file:
+findFirstVisibleSectionPosition	src/com/hb/views/PinnedSectionListView.java	/^	private int findFirstVisibleSectionPosition(int firstVisibleItem, int visibleItemCount) {$/;"	m	class:PinnedSectionListView	file:
+initView	src/com/hb/views/PinnedSectionListView.java	/^	private void initView() {$/;"	m	class:PinnedSectionListView	file:
+isItemViewTypePinned	src/com/hb/views/PinnedSectionListView.java	/^		boolean isItemViewTypePinned(int viewType);$/;"	m	interface:PinnedSectionListView.PinnedSectionListAdapter
+mDelegateOnScrollListener	src/com/hb/views/PinnedSectionListView.java	/^	private OnScrollListener mDelegateOnScrollListener;$/;"	f	class:PinnedSectionListView	file:
+mOnScrollListener	src/com/hb/views/PinnedSectionListView.java	/^	private OnScrollListener mOnScrollListener = new OnScrollListener() {$/;"	f	class:PinnedSectionListView	file:
+mPinnedShadow	src/com/hb/views/PinnedSectionListView.java	/^	PinnedViewShadow mPinnedShadow;$/;"	f	class:PinnedSectionListView
+mRecycleShadow	src/com/hb/views/PinnedSectionListView.java	/^	PinnedViewShadow mRecycleShadow;$/;"	f	class:PinnedSectionListView
+mTranslateY	src/com/hb/views/PinnedSectionListView.java	/^	int mTranslateY;$/;"	f	class:PinnedSectionListView
+onRestoreInstanceState	src/com/hb/views/PinnedSectionListView.java	/^	public void onRestoreInstanceState(Parcelable state) {$/;"	m	class:PinnedSectionListView
+position	src/com/hb/views/PinnedSectionListView.java	/^		public int position;$/;"	f	class:PinnedSectionListView.PinnedViewShadow
+setAdapter	src/com/hb/views/PinnedSectionListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:PinnedSectionListView
+setOnScrollListener	src/com/hb/views/PinnedSectionListView.java	/^	public void setOnScrollListener(OnScrollListener listener) {$/;"	m	class:PinnedSectionListView
+view	src/com/hb/views/PinnedSectionListView.java	/^		public View view;$/;"	f	class:PinnedSectionListView.PinnedViewShadow

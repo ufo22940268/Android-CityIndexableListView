@@ -1,0 +1,441 @@
+	Session.vim	/^cmap  <Home>$/;"	m
+	Session.vim	/^cmap  <Left>$/;"	m
+	Session.vim	/^cnoremap  <Del>$/;"	m
+	Session.vim	/^cmap  <End>$/;"	m
+	Session.vim	/^cmap  <Right>$/;"	m
+S	Session.vim	/^imap S <Plug>ISurround$/;"	m
+s	Session.vim	/^imap s <Plug>Isurround$/;"	m
+	Session.vim	/^cnoremap  <BS>$/;"	m
+		Session.vim	/^inoremap <silent> 	 =TriggerSnippet()$/;"	m
+	Session.vim	/^map   \/$/;"	m
+	Session.vim	/^cnoremap  $/;"	m
+	Session.vim	/^noremap  :TagbarToggle$/;"	m
+	Session.vim	/^nmap $/;"	m
+	Session.vim	/^cmap  <Down>$/;"	m
+	Session.vim	/^imap  <Plug>SuperTabForward$/;"	m
+	Session.vim	/^cmap  <Up>$/;"	m
+	Session.vim	/^imap  <Plug>SuperTabBackward$/;"	m
+		Session.vim	/^inoremap <silent> 	 =ShowAvailableSnips()$/;"	m
+	Session.vim	/^imap  <Plug>Isurround$/;"	m
+	Session.vim	/^map  :WMToggle$/;"	m
+,	Session.vim	/^imap , <Plug>ZenCodingExpandAbbr$/;"	m
+,	Session.vim	/^nmap , <Plug>ZenCodingExpandNormal$/;"	m
+,	Session.vim	/^vmap , <Plug>ZenCodingExpandVisual$/;"	m
+/	Session.vim	/^imap \/ <Plug>ZenCodingToggleComment$/;"	m
+/	Session.vim	/^nmap \/ <Plug>ZenCodingToggleComment$/;"	m
+;	Session.vim	/^imap ; <Plug>ZenCodingExpandWord$/;"	m
+A	Session.vim	/^imap A <Plug>ZenCodingAnchorizeSummary$/;"	m
+A	Session.vim	/^nmap A <Plug>ZenCodingAnchorizeSummary$/;"	m
+D	Session.vim	/^imap D <Plug>ZenCodingBalanceTagOutwardInsert$/;"	m
+D	Session.vim	/^nmap D <Plug>ZenCodingBalanceTagOutwardNormal$/;"	m
+D	Session.vim	/^vmap D <Plug>ZenCodingBalanceTagOutwardVisual$/;"	m
+N	Session.vim	/^imap N <Plug>ZenCodingPrev$/;"	m
+N	Session.vim	/^nmap N <Plug>ZenCodingPrev$/;"	m
+a	Session.vim	/^imap a <Plug>ZenCodingAnchorizeURL$/;"	m
+a	Session.vim	/^nmap a <Plug>ZenCodingAnchorizeURL$/;"	m
+c	Session.vim	/^vmap c <Plug>ZenCodingCodePretty$/;"	m
+d	Session.vim	/^imap d <Plug>ZenCodingBalanceTagInwardInsert$/;"	m
+d	Session.vim	/^nmap d <Plug>ZenCodingBalanceTagInwardNormal$/;"	m
+d	Session.vim	/^vmap d <Plug>ZenCodingBalanceTagInwardVisual$/;"	m
+i	Session.vim	/^imap i <Plug>ZenCodingImageSize$/;"	m
+i	Session.vim	/^nmap i <Plug>ZenCodingImageSize$/;"	m
+j	Session.vim	/^imap j <Plug>ZenCodingSplitJoinTagInsert$/;"	m
+j	Session.vim	/^nmap j <Plug>ZenCodingSplitJoinTagNormal$/;"	m
+k	Session.vim	/^imap k <Plug>ZenCodingRemoveTag$/;"	m
+k	Session.vim	/^nmap k <Plug>ZenCodingRemoveTag$/;"	m
+m	Session.vim	/^vmap m <Plug>ZenCodingMergeLines$/;"	m
+n	Session.vim	/^imap n <Plug>ZenCodingNext$/;"	m
+n	Session.vim	/^nmap n <Plug>ZenCodingNext$/;"	m
+c	Session.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+d	Session.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+e	Session.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+f	Session.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+g	Session.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+i	Session.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+s	Session.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+t	Session.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$<	Session.vim	/^vnoremap $< `>a -->`<i<!-- $/;"	m
+$$	Session.vim	/^vnoremap $$ `>a"`<i"$/;"	m
+$/	Session.vim	/^vnoremap $\/ `>a*\/`<i\/*$/;"	m
+$1	Session.vim	/^vnoremap $1 `>a)`<i($/;"	m
+$2	Session.vim	/^vnoremap $2 `>a]`<i[$/;"	m
+$3	Session.vim	/^vnoremap $3 `>a}`<i{$/;"	m
+$q	Session.vim	/^vnoremap $q `>a'`<i'$/;"	m
+$td	Session.vim	/^cnoremap $td tabnew ~\/Desktop\/$/;"	m
+$th	Session.vim	/^cnoremap $th tabnew ~\/$/;"	m
+$w	Session.vim	/^vnoremap $w `>a"`<i"$/;"	m
+,ac	Session.vim	/^map ,ac :!adb_connect && pactive $TARGET$/;"	m
+,al	Session.vim	/^map ,al :!adb_connect&&adb logcat$/;"	m
+,b	Session.vim	/^nnoremap <silent> ,b :CommandTBuffer$/;"	m
+,bc	Session.vim	/^noremap <silent> ,bc :!find . -name *.java > cscope.files && cscope -b -q$/;"	m
+,bt	Session.vim	/^map <silent> ,bt :!ctags -R --exclude=\\.* $/;"	m
+,c	Session.vim	/^nmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c$	Session.vim	/^nmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,cA	Session.vim	/^nmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,cD	Session.vim	/^nmap <silent> ,cD <Plug>VCSDelete$/;"	m
+,cG	Session.vim	/^nmap <silent> ,cG <Plug>VCSClearAndGotoOriginal$/;"	m
+,cL	Session.vim	/^nmap <silent> ,cL <Plug>VCSLock$/;"	m
+,cN	Session.vim	/^nmap <silent> ,cN <Plug>VCSSplitAnnotate$/;"	m
+,cU	Session.vim	/^nmap <silent> ,cU <Plug>VCSUnlock$/;"	m
+,ca	Session.vim	/^nmap ,ca <Plug>NERDCommenterAltDelims$/;"	m
+,caL	Session.vim	/^nmap ,caL <Plug>CalendarH$/;"	m
+,cal	Session.vim	/^nmap ,cal <Plug>CalendarV$/;"	m
+,cb	Session.vim	/^nmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cc	Session.vim	/^nmap ,cc <Plug>NERDCommenterComment$/;"	m
+,cd	Session.vim	/^noremap ,cd :call CdToProjectRoot()$/;"	m
+,cg	Session.vim	/^nmap <silent> ,cg <Plug>VCSGotoOriginal$/;"	m
+,ci	Session.vim	/^nmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,cl	Session.vim	/^nmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cm	Session.vim	/^nmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cn	Session.vim	/^nmap ,cn <Plug>NERDCommenterNested$/;"	m
+,cp	Session.vim	/^vnoremap ,cp :call CopySelectionLines()$/;"	m
+,cq	Session.vim	/^nmap <silent> ,cq <Plug>VCSRevert$/;"	m
+,cr	Session.vim	/^nmap <silent> ,cr <Plug>VCSReview$/;"	m
+,cs	Session.vim	/^nmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cu	Session.vim	/^nmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cv	Session.vim	/^nmap <silent> ,cv <Plug>VCSVimDiff$/;"	m
+,cy	Session.vim	/^nmap ,cy <Plug>NERDCommenterYank$/;"	m
+,di	Session.vim	/^noremap ,di :call DebugInnerClass()$/;"	m
+,do	Session.vim	/^noremap ,do :call DebugOuterClass()$/;"	m
+,es	Session.vim	/^nmap ,es :call EditSnippet()$/;"	m
+,et	Session.vim	/^nmap ,et :exec "e ~\/.vim\/ftplugin\/".&filetype.".vim"$/;"	m
+,fb	Session.vim	/^noremap ,fb viB:g!#^.*\/\/#Tabularize \/,$/;"	m
+,fd	Session.vim	/^nmap ,fd :se ff=dos$/;"	m
+,fu	Session.vim	/^nmap ,fu :se ff=unix$/;"	m
+,ig	Session.vim	/^nmap <silent> ,ig <Plug>IndentGuidesToggle$/;"	m
+,m	Session.vim	/^noremap ,m :make$/;"	m
+,p	Session.vim	/^vnoremap ,p :call EchoSelectionLines()$/;"	m
+,pl	Session.vim	/^noremap ,pl :call PushLarge()$/;"	m
+,pt	Session.vim	/^map ,pt :set invpaste$/;"	m
+,py	Session.vim	/^noremap ,py :call PushYlzhao()$/;"	m
+,q	Session.vim	/^map ,q :e ~\/buffer$/;"	m
+,rr	Session.vim	/^nmap ,rr :call ReloadSnippets(snippets_dir, &filetype)$/;"	m
+,s?	Session.vim	/^map ,s? z=$/;"	m
+,sa	Session.vim	/^map ,sa zg$/;"	m
+,scd	Session.vim	/^nmap ,scd <Plug>SQLUGetColumnDef$/;"	m
+,scdt	Session.vim	/^nmap ,scdt <Plug>SQLUGetColumnDataType$/;"	m
+,scl	Session.vim	/^nmap ,scl <Plug>SQLUCreateColumnList$/;"	m
+,scp	Session.vim	/^nmap ,scp <Plug>SQLUCreateProcedure$/;"	m
+,sf	Session.vim	/^nmap ,sf <Plug>SQLUFormatter$/;"	m
+,sf	Session.vim	/^vmap ,sf <Plug>SQLUFormatter$/;"	m
+,sfr	Session.vim	/^nmap ,sfr <Plug>SQLUFormatStmts$/;"	m
+,sfr	Session.vim	/^vmap ,sfr <Plug>SQLUFormatStmts$/;"	m
+,sfs	Session.vim	/^nmap ,sfs <Plug>SQLUFormatter$/;"	m
+,sfs	Session.vim	/^vmap ,sfs <Plug>SQLUFormatter$/;"	m
+,sn	Session.vim	/^map ,sn ]$/;"	m
+,sp	Session.vim	/^map ,sp [$/;"	m
+,t	Session.vim	/^nnoremap <silent> ,t :CommandT$/;"	m
+,tc	Session.vim	/^noremap ,tc :!adb_connect$/;"	m
+,tcd	Session.vim	/^noremap ,tcd :call ClearDb()$/;"	m
+,tr	Session.vim	/^noremap ,tr :!adb shell stop; sleep 2; adb shell start$/;"	m
+,ts	Session.vim	/^noremap ,ts :!target_sync$/;"	m
+,u	Session.vim	/^noremap ,u hgUiwe$/;"	m
+,va	Session.vim	/^nnoremap ,va :e ~\/.config\/awesome\/rc.lua$/;"	m
+,vac	Session.vim	/^nnoremap ,vac :!make clean$/;"	m
+,vcg	Session.vim	/^noremap ,vcg :e =language_dir$/;"	m
+,vcs	Session.vim	/^noremap ,vcs :e res\/values-zh-rCN\/strings.xml$/;"	m
+,vd	Session.vim	/^nnoremap ,vd :!mvn android:deploy$/;"	m
+,veg	Session.vim	/^noremap ,veg :e =language_dir$/;"	m
+,ves	Session.vim	/^noremap ,ves :e res\/values\/strings.xml$/;"	m
+,vf	Session.vim	/^nnoremap ,vf :let @f=expand("%:t:r")$/;"	m
+,vh	Session.vim	/^nnoremap ,vh gg\/class$/;"	m
+,vjs	Session.vim	/^map ,vjs :sp ~\/.vim\/snippets\/java.snippets$/;"	m
+,vn	Session.vim	/^nnoremap ,vn :call EditSnippet()$/;"	m
+,vp	Session.vim	/^noremap ,vp :let @p=expand("%:p")$/;"	m
+,vr	Session.vim	/^nnoremap ,vr :make runa$/;"	m
+,vs	Session.vim	/^map ,vs :so ~\/.vimrc$/;"	m
+,vt	Session.vim	/^nnoremap ,vt :call EditFileType()$/;"	m
+,vu	Session.vim	/^nnoremap ,vu :!ant uninstall$/;"	m
+,vv	Session.vim	/^map ,vv :e ~\/.vimrc$/;"	m
+,vxs	Session.vim	/^map ,vxs :sp ~\/.vim\/snippets\/xml.snippets$/;"	m
+,w	Session.vim	/^nmap ,w :w!$/;"	m
+,wc	Session.vim	/^map ,wc :call SwitchToProject("CONTACTS")$/;"	m
+,wf	Session.vim	/^map ,wf :call SwitchToProject("FRA")$/;"	m
+,wh	Session.vim	/^map ,wh :call SwitchToProject("CALL_HISTORY")$/;"	m
+,wp	Session.vim	/^map ,wp :call SwitchToProject("PROVIDER")$/;"	m
+,wr	Session.vim	/^map ,wr :call SwitchToProject("RES")$/;"	m
+,x	Session.vim	/^nmap ,x :xa!$/;"	m
+,y	Session.vim	/^map ,y :YRShow$/;"	m
+,z	Session.vim	/^map ,z <Plug>ZoomWin$/;"	m
+0	Session.vim	/^map 0 ^$/;"	m
+<C-Tab>	Session.vim	/^inoremap <C-Tab> 	$/;"	m
+<F2>	Session.vim	/^noremap <F2> :NERDTreeToggle$/;"	m
+<F3>	Session.vim	/^noremap <F3> :NumbersToggle$/;"	m
+<F9>	Session.vim	/^map <F9> ggVGg?$/;"	m
+<Nul><Nul>c	Session.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>d	Session.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>e	Session.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>f	Session.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>g	Session.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>i	Session.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>s	Session.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>t	Session.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul>c	Session.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>d	Session.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>e	Session.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>f	Session.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>g	Session.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>i	Session.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>s	Session.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>t	Session.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Plug>CalendarH	Session.vim	/^nnoremap <silent> <Plug>CalendarH :cal Calendar(1)$/;"	m
+<Plug>CalendarV	Session.vim	/^nnoremap <silent> <Plug>CalendarV :cal Calendar(0)$/;"	m
+<Plug>NERDCommenterAlignBoth	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment("n", "AlignBoth")$/;"	m
+<Plug>NERDCommenterAlignLeft	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment("n", "AlignLeft")$/;"	m
+<Plug>NERDCommenterAppend	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterAppend :call NERDComment("n", "Append")$/;"	m
+<Plug>NERDCommenterComment	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterComment :call NERDComment("n", "Comment")$/;"	m
+<Plug>NERDCommenterInsert	Session.vim	/^inoremap <silent> <Plug>NERDCommenterInsert  <BS>:call NERDComment('i', "insert")$/;"	m
+<Plug>NERDCommenterInvert	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment("n", "Invert")$/;"	m
+<Plug>NERDCommenterMinimal	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment("n", "Minimal")$/;"	m
+<Plug>NERDCommenterNested	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterNested :call NERDComment("n", "Nested")$/;"	m
+<Plug>NERDCommenterSexy	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment("n", "Sexy")$/;"	m
+<Plug>NERDCommenterToEOL	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterToEOL :call NERDComment("n", "ToEOL")$/;"	m
+<Plug>NERDCommenterToggle	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment("n", "Toggle")$/;"	m
+<Plug>NERDCommenterUncomment	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment("n", "Uncomment")$/;"	m
+<Plug>NERDCommenterYank	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterYank :call NERDComment("n", "Yank")$/;"	m
+<Plug>NetrwBrowseX	Session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>SurroundRepeat	Session.vim	/^nnoremap <silent> <Plug>SurroundRepeat .$/;"	m
+<Plug>VCSAdd	Session.vim	/^nnoremap <silent> <Plug>VCSAdd :VCSAdd$/;"	m
+<Plug>VCSAnnotate	Session.vim	/^nnoremap <silent> <Plug>VCSAnnotate :VCSAnnotate$/;"	m
+<Plug>VCSClearAndGotoOriginal	Session.vim	/^nnoremap <silent> <Plug>VCSClearAndGotoOriginal :VCSGotoOriginal!$/;"	m
+<Plug>VCSCommit	Session.vim	/^nnoremap <silent> <Plug>VCSCommit :VCSCommit$/;"	m
+<Plug>VCSDelete	Session.vim	/^nnoremap <silent> <Plug>VCSDelete :VCSDelete$/;"	m
+<Plug>VCSDiff	Session.vim	/^nnoremap <silent> <Plug>VCSDiff :VCSDiff$/;"	m
+<Plug>VCSGotoOriginal	Session.vim	/^nnoremap <silent> <Plug>VCSGotoOriginal :VCSGotoOriginal$/;"	m
+<Plug>VCSInfo	Session.vim	/^nnoremap <silent> <Plug>VCSInfo :VCSInfo$/;"	m
+<Plug>VCSLock	Session.vim	/^nnoremap <silent> <Plug>VCSLock :VCSLock$/;"	m
+<Plug>VCSLog	Session.vim	/^nnoremap <silent> <Plug>VCSLog :VCSLog$/;"	m
+<Plug>VCSRevert	Session.vim	/^nnoremap <silent> <Plug>VCSRevert :VCSRevert$/;"	m
+<Plug>VCSReview	Session.vim	/^nnoremap <silent> <Plug>VCSReview :VCSReview$/;"	m
+<Plug>VCSSplitAnnotate	Session.vim	/^nnoremap <silent> <Plug>VCSSplitAnnotate :VCSAnnotate!$/;"	m
+<Plug>VCSStatus	Session.vim	/^nnoremap <silent> <Plug>VCSStatus :VCSStatus$/;"	m
+<Plug>VCSUnlock	Session.vim	/^nnoremap <silent> <Plug>VCSUnlock :VCSUnlock$/;"	m
+<Plug>VCSUpdate	Session.vim	/^nnoremap <silent> <Plug>VCSUpdate :VCSUpdate$/;"	m
+<Plug>VCSVimDiff	Session.vim	/^nnoremap <silent> <Plug>VCSVimDiff :VCSVimDiff$/;"	m
+<Plug>ZenCodingAnchorizeSummary	Session.vim	/^inoremap <Plug>ZenCodingAnchorizeSummary :call zencoding#anchorizeURL(1)$/;"	m
+<Plug>ZenCodingAnchorizeSummary	Session.vim	/^nnoremap <Plug>ZenCodingAnchorizeSummary :call zencoding#anchorizeURL(1)$/;"	m
+<Plug>ZenCodingAnchorizeURL	Session.vim	/^inoremap <Plug>ZenCodingAnchorizeURL :call zencoding#anchorizeURL(0)$/;"	m
+<Plug>ZenCodingAnchorizeURL	Session.vim	/^nnoremap <Plug>ZenCodingAnchorizeURL :call zencoding#anchorizeURL(0)$/;"	m
+<Plug>ZenCodingBalanceTagInwardInsert	Session.vim	/^inoremap <Plug>ZenCodingBalanceTagInwardInsert :call zencoding#balanceTag(1)$/;"	m
+<Plug>ZenCodingBalanceTagInwardNormal	Session.vim	/^nnoremap <Plug>ZenCodingBalanceTagInwardNormal :call zencoding#balanceTag(1)$/;"	m
+<Plug>ZenCodingBalanceTagInwardVisual	Session.vim	/^vnoremap <Plug>ZenCodingBalanceTagInwardVisual :call zencoding#balanceTag(2)$/;"	m
+<Plug>ZenCodingBalanceTagOutwardInsert	Session.vim	/^inoremap <Plug>ZenCodingBalanceTagOutwardInsert :call zencoding#balanceTag(-1)$/;"	m
+<Plug>ZenCodingBalanceTagOutwardNormal	Session.vim	/^nnoremap <Plug>ZenCodingBalanceTagOutwardNormal :call zencoding#balanceTag(-1)$/;"	m
+<Plug>ZenCodingBalanceTagOutwardVisual	Session.vim	/^vnoremap <Plug>ZenCodingBalanceTagOutwardVisual :call zencoding#balanceTag(-2)$/;"	m
+<Plug>ZenCodingCodePretty	Session.vim	/^vnoremap <Plug>ZenCodingCodePretty :call zencoding#codePretty()$/;"	m
+<Plug>ZenCodingExpandAbbr	Session.vim	/^inoremap <Plug>ZenCodingExpandAbbr u:call zencoding#expandAbbr(0,"")$/;"	m
+<Plug>ZenCodingExpandNormal	Session.vim	/^nnoremap <Plug>ZenCodingExpandNormal :call zencoding#expandAbbr(3,"")$/;"	m
+<Plug>ZenCodingExpandVisual	Session.vim	/^vnoremap <Plug>ZenCodingExpandVisual :call zencoding#expandAbbr(2,"")$/;"	m
+<Plug>ZenCodingExpandWord	Session.vim	/^inoremap <Plug>ZenCodingExpandWord u:call zencoding#expandAbbr(1,"")$/;"	m
+<Plug>ZenCodingExpandWord	Session.vim	/^nnoremap <Plug>ZenCodingExpandWord :call zencoding#expandAbbr(1,"")$/;"	m
+<Plug>ZenCodingImageSize	Session.vim	/^inoremap <Plug>ZenCodingImageSize :call zencoding#imageSize()$/;"	m
+<Plug>ZenCodingImageSize	Session.vim	/^nnoremap <Plug>ZenCodingImageSize :call zencoding#imageSize()$/;"	m
+<Plug>ZenCodingMergeLines	Session.vim	/^vnoremap <Plug>ZenCodingMergeLines :call zencoding#mergeLines()$/;"	m
+<Plug>ZenCodingNext	Session.vim	/^inoremap <Plug>ZenCodingNext :call zencoding#moveNextPrev(0)$/;"	m
+<Plug>ZenCodingNext	Session.vim	/^nnoremap <Plug>ZenCodingNext :call zencoding#moveNextPrev(0)$/;"	m
+<Plug>ZenCodingPrev	Session.vim	/^inoremap <Plug>ZenCodingPrev :call zencoding#moveNextPrev(1)$/;"	m
+<Plug>ZenCodingPrev	Session.vim	/^nnoremap <Plug>ZenCodingPrev :call zencoding#moveNextPrev(1)$/;"	m
+<Plug>ZenCodingRemoveTag	Session.vim	/^inoremap <Plug>ZenCodingRemoveTag :call zencoding#removeTag()$/;"	m
+<Plug>ZenCodingRemoveTag	Session.vim	/^nnoremap <Plug>ZenCodingRemoveTag :call zencoding#removeTag()$/;"	m
+<Plug>ZenCodingSplitJoinTagInsert	Session.vim	/^inoremap <Plug>ZenCodingSplitJoinTagInsert :call zencoding#splitJoinTag()$/;"	m
+<Plug>ZenCodingSplitJoinTagNormal	Session.vim	/^nnoremap <Plug>ZenCodingSplitJoinTagNormal :call zencoding#splitJoinTag()$/;"	m
+<Plug>ZenCodingToggleComment	Session.vim	/^inoremap <Plug>ZenCodingToggleComment :call zencoding#toggleComment()$/;"	m
+<Plug>ZenCodingToggleComment	Session.vim	/^nnoremap <Plug>ZenCodingToggleComment :call zencoding#toggleComment()$/;"	m
+<S-Tab>	Session.vim	/^inoremap <silent> <S-Tab> =BackwardsSnippet()$/;"	m
+BuildConfig	gen/com/woozzu/android/indexablelistview/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+BuildConfig	pinned/gen/com/hb/views/pinnedsection/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+COLLATOR	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final Collator COLLATOR = Collator.getInstance(Locale.CHINA);$/;"	f	class:HanziToPingyin	file:
+ContentAdapter	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public ContentAdapter(Context context, String[] popCities, List<String> cities) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+ContentAdapter	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    private class ContentAdapter extends BaseAdapter implements SectionIndexer, PinnedSectionListAdapter {$/;"	c	class:IndexableListViewActivity
+DEBUG	gen/com/woozzu/android/indexablelistview/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+DEBUG	pinned/gen/com/hb/views/pinnedsection/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+DEBUG	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final boolean DEBUG = false;$/;"	f	class:HanziToPingyin	file:
+DialerSearchToken	src/com/woozzu/android/util/HanziToPingyin.java	/^    private class DialerSearchToken extends Token {$/;"	c	class:HanziToPingyin
+FIRSTCASE	src/com/woozzu/android/util/HanziToPingyin.java	/^        static final int FIRSTCASE = 0;$/;"	f	class:HanziToPingyin.DialerSearchToken
+FIRST_PINYIN_UNIHAN	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final String FIRST_PINYIN_UNIHAN = "\\u963F";$/;"	f	class:HanziToPingyin	file:
+FIRST_UNIHAN	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final char FIRST_UNIHAN = '\\u3400';$/;"	f	class:HanziToPingyin	file:
+HanziToPingyin	src/com/woozzu/android/util/HanziToPingyin.java	/^    protected HanziToPingyin(boolean hasChinaCollator) {$/;"	m	class:HanziToPingyin
+HanziToPingyin	src/com/woozzu/android/util/HanziToPingyin.java	/^public class HanziToPingyin {$/;"	c
+IndexScroller	src/com/woozzu/android/widget/IndexScroller.java	/^	public IndexScroller(Context context, ListView lv) {$/;"	m	class:IndexScroller
+IndexScroller	src/com/woozzu/android/widget/IndexScroller.java	/^public class IndexScroller {$/;"	c
+IndexableListView	src/com/woozzu/android/widget/IndexableListView.java	/^	public IndexableListView(Context context, AttributeSet attrs) {$/;"	m	class:IndexableListView
+IndexableListView	src/com/woozzu/android/widget/IndexableListView.java	/^	public IndexableListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:IndexableListView
+IndexableListView	src/com/woozzu/android/widget/IndexableListView.java	/^public class IndexableListView extends com.hb.views.PinnedSectionListView{$/;"	c
+IndexableListViewActivity	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^public class IndexableListViewActivity extends Activity {$/;"	c
+Item	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public class Item {$/;"	c	class:IndexableListViewActivity.ContentAdapter
+KOREAN_INITIAL	src/com/woozzu/android/util/StringMatcher.java	/^	private final static char[] KOREAN_INITIAL = {'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ'$/;"	f	class:StringMatcher	file:
+KOREAN_UNICODE_END	src/com/woozzu/android/util/StringMatcher.java	/^	private final static char KOREAN_UNICODE_END = '힣';$/;"	f	class:StringMatcher	file:
+KOREAN_UNICODE_START	src/com/woozzu/android/util/StringMatcher.java	/^	private final static char KOREAN_UNICODE_START = '가';$/;"	f	class:StringMatcher	file:
+KOREAN_UNIT	src/com/woozzu/android/util/StringMatcher.java	/^	private final static char KOREAN_UNIT = '까' - '가';$/;"	f	class:StringMatcher	file:
+LAST_PINYIN_UNIHAN	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final String LAST_PINYIN_UNIHAN = "\\u84D9";$/;"	f	class:HanziToPingyin	file:
+LATIN	src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final int LATIN = 1;$/;"	f	class:HanziToPingyin.Token
+LOWERCASE	src/com/woozzu/android/util/HanziToPingyin.java	/^        static final int LOWERCASE = 2;$/;"	f	class:HanziToPingyin.DialerSearchToken
+PINYIN	src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final int PINYIN = 2;$/;"	f	class:HanziToPingyin.Token
+PINYINS	src/com/woozzu/android/util/HanziToPingyin.java	/^    public static final byte[][] PINYINS = { { 65, 0, 0, 0, 0, 0 },$/;"	f	class:HanziToPingyin
+PinnedSectionListAdapter	pinned/src/com/hb/views/PinnedSectionListView.java	/^	public static interface PinnedSectionListAdapter extends ListAdapter {$/;"	i	class:PinnedSectionListView
+PinnedSectionListView	pinned/src/com/hb/views/PinnedSectionListView.java	/^	public PinnedSectionListView(Context context, AttributeSet attrs) {$/;"	m	class:PinnedSectionListView
+PinnedSectionListView	pinned/src/com/hb/views/PinnedSectionListView.java	/^	public PinnedSectionListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:PinnedSectionListView
+PinnedSectionListView	pinned/src/com/hb/views/PinnedSectionListView.java	/^public class PinnedSectionListView extends ListView {$/;"	c
+PinnedViewShadow	pinned/src/com/hb/views/PinnedSectionListView.java	/^	static class PinnedViewShadow {$/;"	c	class:PinnedSectionListView
+R	gen/com/woozzu/android/indexablelistview/R.java	/^public final class R {$/;"	c
+RUN	Makefile	/^RUN := adb shell "am start -n  com.woozzu.android.indexablelistview\/.IndexableListViewActivity"$/;"	m
+SEPARATOR	src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final String SEPARATOR = " ";$/;"	f	class:HanziToPingyin.Token
+STATE_HIDDEN	src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_HIDDEN = 0;$/;"	f	class:IndexScroller	file:
+STATE_HIDING	src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_HIDING = 3;$/;"	f	class:IndexScroller	file:
+STATE_SHOWING	src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_SHOWING = 1;$/;"	f	class:IndexScroller	file:
+STATE_SHOWN	src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_SHOWN = 2;$/;"	f	class:IndexScroller	file:
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+StringMatcher	src/com/woozzu/android/util/StringMatcher.java	/^public class StringMatcher {$/;"	c
+TAG	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final String TAG = "HanziToPinyin";$/;"	f	class:HanziToPingyin	file:
+TYPE_ITEM	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        private int TYPE_ITEM = 0;$/;"	f	class:IndexableListViewActivity.ContentAdapter	file:
+TYPE_SECTION	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        private int TYPE_SECTION = 1;$/;"	f	class:IndexableListViewActivity.ContentAdapter	file:
+Token	src/com/woozzu/android/util/HanziToPingyin.java	/^        public Token() {$/;"	m	class:HanziToPingyin.Token
+Token	src/com/woozzu/android/util/HanziToPingyin.java	/^        public Token(int type, String source, String target) {$/;"	m	class:HanziToPingyin.Token
+Token	src/com/woozzu/android/util/HanziToPingyin.java	/^    public static class Token {$/;"	c	class:HanziToPingyin
+UNIHANS	src/com/woozzu/android/util/HanziToPingyin.java	/^    public static final char[] UNIHANS = { '\\u5475', '\\u54ce', '\\u5b89',$/;"	f	class:HanziToPingyin
+UNKNOWN	src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final int UNKNOWN = 3;$/;"	f	class:HanziToPingyin.Token
+UPPERCASE	src/com/woozzu/android/util/HanziToPingyin.java	/^        static final int UPPERCASE = 1;$/;"	f	class:HanziToPingyin.DialerSearchToken
+[%	Session.vim	/^vmap [% [%m'gv``$/;"	m
+]%	Session.vim	/^vmap ]% ]%m'gv``$/;"	m
+a%	Session.vim	/^vmap a% [%v]%$/;"	m
+aC	Session.vim	/^onoremap <silent> aC :call TextObjWordBasedColumn("aW")$/;"	m
+ac	Session.vim	/^onoremap <silent> ac :call TextObjWordBasedColumn("aw")$/;"	m
+addOffsets	src/com/woozzu/android/util/HanziToPingyin.java	/^    private void addOffsets(final StringBuilder sb,$/;"	m	class:HanziToPingyin	file:
+addSubString	src/com/woozzu/android/util/HanziToPingyin.java	/^    private void addSubString(final ArrayList<Token> tokens,$/;"	m	class:HanziToPingyin	file:
+addToken	src/com/woozzu/android/util/HanziToPingyin.java	/^    private void addToken(final StringBuilder sb,$/;"	m	class:HanziToPingyin	file:
+app_name	gen/com/woozzu/android/indexablelistview/R.java	/^        public static final int app_name=0x7f040001;$/;"	f	class:R.string
+attr	gen/com/woozzu/android/indexablelistview/R.java	/^    public static final class attr {$/;"	c	class:R
+com.hb.views	pinned/src/com/hb/views/PinnedSectionListView.java	/^package com.hb.views;$/;"	p
+com.hb.views.pinnedsection	pinned/gen/com/hb/views/pinnedsection/BuildConfig.java	/^package com.hb.views.pinnedsection;$/;"	p
+com.woozzu.android.indexablelistview	gen/com/woozzu/android/indexablelistview/BuildConfig.java	/^package com.woozzu.android.indexablelistview;$/;"	p
+com.woozzu.android.indexablelistview	gen/com/woozzu/android/indexablelistview/R.java	/^package com.woozzu.android.indexablelistview;$/;"	p
+com.woozzu.android.indexablelistview	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^package com.woozzu.android.indexablelistview;$/;"	p
+com.woozzu.android.util	src/com/woozzu/android/util/HanziToPingyin.java	/^package com.woozzu.android.util;$/;"	p
+com.woozzu.android.util	src/com/woozzu/android/util/StringMatcher.java	/^package com.woozzu.android.util;$/;"	p
+com.woozzu.android.widget	src/com/woozzu/android/widget/IndexScroller.java	/^package com.woozzu.android.widget;$/;"	p
+com.woozzu.android.widget	src/com/woozzu/android/widget/IndexableListView.java	/^package com.woozzu.android.widget;$/;"	p
+contains	src/com/woozzu/android/widget/IndexScroller.java	/^	private boolean contains(float x, float y) {$/;"	m	class:IndexScroller	file:
+createPinnedShadow	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private void createPinnedShadow(int position) {$/;"	m	class:PinnedSectionListView	file:
+cs	Session.vim	/^nmap cs <Plug>Csurround$/;"	m
+destroyPinnedShadow	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private void destroyPinnedShadow() {$/;"	m	class:PinnedSectionListView	file:
+dispatchDraw	pinned/src/com/hb/views/PinnedSectionListView.java	/^	protected void dispatchDraw(Canvas canvas) {$/;"	m	class:PinnedSectionListView
+doSelfValidation	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static boolean doSelfValidation() {$/;"	m	class:HanziToPingyin	file:
+draw	src/com/woozzu/android/widget/IndexScroller.java	/^	public void draw(Canvas canvas) {$/;"	m	class:IndexScroller
+draw	src/com/woozzu/android/widget/IndexableListView.java	/^	public void draw(Canvas canvas) {$/;"	m	class:IndexableListView
+drawable	gen/com/woozzu/android/indexablelistview/R.java	/^    public static final class drawable {$/;"	c	class:R
+ds	Session.vim	/^nmap ds <Plug>Dsurround$/;"	m
+fade	src/com/woozzu/android/widget/IndexScroller.java	/^	private void fade(long delay) {$/;"	m	class:IndexScroller	file:
+findCurrentSectionPosition	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private int findCurrentSectionPosition(int fromPosition) {$/;"	m	class:PinnedSectionListView	file:
+findFirstVisibleSectionPosition	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private int findFirstVisibleSectionPosition(int firstVisibleItem, int visibleItemCount) {$/;"	m	class:PinnedSectionListView	file:
+get	src/com/woozzu/android/util/HanziToPingyin.java	/^    public ArrayList<Token> get(final String input) {$/;"	m	class:HanziToPingyin
+getCount	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public int getCount() {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getFirstPinYin	src/com/woozzu/android/util/HanziToPingyin.java	/^    public static String getFirstPinYin(String source){ $/;"	m	class:HanziToPingyin
+getInitialSound	src/com/woozzu/android/util/StringMatcher.java	/^	private static char getInitialSound(char c) {$/;"	m	class:StringMatcher	file:
+getInstance	src/com/woozzu/android/util/HanziToPingyin.java	/^    public static HanziToPingyin getInstance() {$/;"	m	class:HanziToPingyin
+getItem	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public Object getItem(int position) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getItemId	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public long getItemId(int position) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getItemViewType	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public int getItemViewType(int position) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getPinYin	src/com/woozzu/android/util/HanziToPingyin.java	/^    public static String getPinYin(String input) {$/;"	m	class:HanziToPingyin
+getPositionForSection	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^		public int getPositionForSection(int section) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getSectionByPoint	src/com/woozzu/android/widget/IndexScroller.java	/^	private int getSectionByPoint(float y) {$/;"	m	class:IndexScroller	file:
+getSectionForPosition	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^		public int getSectionForPosition(int position) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getSections	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^		public Object[] getSections() {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getToken	src/com/woozzu/android/util/HanziToPingyin.java	/^    private Token getToken(char character) {$/;"	m	class:HanziToPingyin	file:
+getTokensForDialerSearch	src/com/woozzu/android/util/HanziToPingyin.java	/^    public String getTokensForDialerSearch(final String input,$/;"	m	class:HanziToPingyin
+getView	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+getViewTypeCount	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        public int getViewTypeCount() {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+gx	Session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+hello	gen/com/woozzu/android/indexablelistview/R.java	/^        public static final int hello=0x7f040000;$/;"	f	class:R.string
+hide	src/com/woozzu/android/widget/IndexScroller.java	/^	public void hide() {$/;"	m	class:IndexScroller
+iC	Session.vim	/^onoremap <silent> iC :call TextObjWordBasedColumn("iW")$/;"	m
+ic	Session.vim	/^onoremap <silent> ic :call TextObjWordBasedColumn("iw")$/;"	m
+icon	gen/com/woozzu/android/indexablelistview/R.java	/^        public static final int icon=0x7f020000;$/;"	f	class:R.drawable
+id	gen/com/woozzu/android/indexablelistview/R.java	/^    public static final class id {$/;"	c	class:R
+initView	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private void initView() {$/;"	m	class:PinnedSectionListView	file:
+isFastScrollEnabled	src/com/woozzu/android/widget/IndexableListView.java	/^	public boolean isFastScrollEnabled() {$/;"	m	class:IndexableListView
+isInitialSound	src/com/woozzu/android/util/StringMatcher.java	/^	private static boolean isInitialSound(char c) {$/;"	m	class:StringMatcher	file:
+isItemViewTypePinned	pinned/src/com/hb/views/PinnedSectionListView.java	/^		boolean isItemViewTypePinned(int viewType);$/;"	m	interface:PinnedSectionListView.PinnedSectionListAdapter
+isItemViewTypePinned	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        @Override public boolean isItemViewTypePinned(int type) {$/;"	m	class:IndexableListViewActivity.ContentAdapter
+isKorean	src/com/woozzu/android/util/StringMatcher.java	/^	private static boolean isKorean(char c) {$/;"	m	class:StringMatcher	file:
+layout	gen/com/woozzu/android/indexablelistview/R.java	/^    public static final class layout {$/;"	c	class:R
+listview	gen/com/woozzu/android/indexablelistview/R.java	/^        public static final int listview=0x7f050000;$/;"	f	class:R.id
+mAlphaRate	src/com/woozzu/android/widget/IndexScroller.java	/^	private float mAlphaRate;$/;"	f	class:IndexScroller	file:
+mContext	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        private Context mContext;$/;"	f	class:IndexableListViewActivity.ContentAdapter	file:
+mCurrentSection	src/com/woozzu/android/widget/IndexScroller.java	/^	private int mCurrentSection = -1;$/;"	f	class:IndexScroller	file:
+mDelegateOnScrollListener	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private OnScrollListener mDelegateOnScrollListener;$/;"	f	class:PinnedSectionListView	file:
+mDensity	src/com/woozzu/android/widget/IndexScroller.java	/^	private float mDensity;$/;"	f	class:IndexScroller	file:
+mGestureDetector	src/com/woozzu/android/widget/IndexableListView.java	/^	private GestureDetector mGestureDetector = null;$/;"	f	class:IndexableListView	file:
+mHandler	src/com/woozzu/android/widget/IndexScroller.java	/^	private Handler mHandler = new Handler() {$/;"	f	class:IndexScroller	file:
+mHasChinaCollator	src/com/woozzu/android/util/HanziToPingyin.java	/^    private final boolean mHasChinaCollator;$/;"	f	class:HanziToPingyin	file:
+mIndexbarMargin	src/com/woozzu/android/widget/IndexScroller.java	/^	private float mIndexbarMargin;$/;"	f	class:IndexScroller	file:
+mIndexbarRect	src/com/woozzu/android/widget/IndexScroller.java	/^	private RectF mIndexbarRect;$/;"	f	class:IndexScroller	file:
+mIndexbarWidth	src/com/woozzu/android/widget/IndexScroller.java	/^	private float mIndexbarWidth;$/;"	f	class:IndexScroller	file:
+mIndexer	src/com/woozzu/android/widget/IndexScroller.java	/^	private SectionIndexer mIndexer = null;$/;"	f	class:IndexScroller	file:
+mIsFastScrollEnabled	src/com/woozzu/android/widget/IndexableListView.java	/^	private boolean mIsFastScrollEnabled = false;$/;"	f	class:IndexableListView	file:
+mIsIndexing	src/com/woozzu/android/widget/IndexScroller.java	/^	private boolean mIsIndexing = false;$/;"	f	class:IndexScroller	file:
+mItems	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^	private ArrayList<String> mItems;$/;"	f	class:IndexableListViewActivity	file:
+mItems	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^        private List<Item> mItems;$/;"	f	class:IndexableListViewActivity.ContentAdapter	file:
+mListView	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^	private IndexableListView mListView;$/;"	f	class:IndexableListViewActivity	file:
+mListView	src/com/woozzu/android/widget/IndexScroller.java	/^	private ListView mListView = null;$/;"	f	class:IndexScroller	file:
+mListViewHeight	src/com/woozzu/android/widget/IndexScroller.java	/^	private int mListViewHeight;$/;"	f	class:IndexScroller	file:
+mListViewWidth	src/com/woozzu/android/widget/IndexScroller.java	/^	private int mListViewWidth;$/;"	f	class:IndexScroller	file:
+mOnScrollListener	pinned/src/com/hb/views/PinnedSectionListView.java	/^	private OnScrollListener mOnScrollListener = new OnScrollListener() {$/;"	f	class:PinnedSectionListView	file:
+mPinnedShadow	pinned/src/com/hb/views/PinnedSectionListView.java	/^	PinnedViewShadow mPinnedShadow;$/;"	f	class:PinnedSectionListView
+mPreviewPadding	src/com/woozzu/android/widget/IndexScroller.java	/^	private float mPreviewPadding;$/;"	f	class:IndexScroller	file:
+mRecycleShadow	pinned/src/com/hb/views/PinnedSectionListView.java	/^	PinnedViewShadow mRecycleShadow;$/;"	f	class:PinnedSectionListView
+mScaledDensity	src/com/woozzu/android/widget/IndexScroller.java	/^	private float mScaledDensity;$/;"	f	class:IndexScroller	file:
+mScroller	src/com/woozzu/android/widget/IndexableListView.java	/^	private IndexScroller mScroller = null;$/;"	f	class:IndexableListView	file:
+mSections	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    	private List<String> mSections = new ArrayList<String>();$/;"	f	class:IndexableListViewActivity.ContentAdapter	file:
+mSections	src/com/woozzu/android/widget/IndexScroller.java	/^	private String[] mSections = null;$/;"	f	class:IndexScroller	file:
+mState	src/com/woozzu/android/widget/IndexScroller.java	/^	private int mState = STATE_HIDDEN;$/;"	f	class:IndexScroller	file:
+mTranslateY	pinned/src/com/hb/views/PinnedSectionListView.java	/^	int mTranslateY;$/;"	f	class:PinnedSectionListView
+main	gen/com/woozzu/android/indexablelistview/R.java	/^        public static final int main=0x7f030000;$/;"	f	class:R.layout
+match	src/com/woozzu/android/util/StringMatcher.java	/^	public static boolean match(String value, String keyword) {$/;"	m	class:StringMatcher
+onCreate	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:IndexableListViewActivity
+onInterceptTouchEvent	src/com/woozzu/android/widget/IndexableListView.java	/^	public boolean onInterceptTouchEvent(MotionEvent ev) {$/;"	m	class:IndexableListView
+onRestoreInstanceState	pinned/src/com/hb/views/PinnedSectionListView.java	/^	public void onRestoreInstanceState(Parcelable state) {$/;"	m	class:PinnedSectionListView
+onSizeChanged	src/com/woozzu/android/widget/IndexScroller.java	/^	public void onSizeChanged(int w, int h, int oldw, int oldh) {$/;"	m	class:IndexScroller
+onSizeChanged	src/com/woozzu/android/widget/IndexableListView.java	/^	protected void onSizeChanged(int w, int h, int oldw, int oldh) {$/;"	m	class:IndexableListView
+onTouchEvent	src/com/woozzu/android/widget/IndexScroller.java	/^	public boolean onTouchEvent(MotionEvent ev) {$/;"	m	class:IndexScroller
+onTouchEvent	src/com/woozzu/android/widget/IndexableListView.java	/^	public boolean onTouchEvent(MotionEvent ev) {$/;"	m	class:IndexableListView
+position	pinned/src/com/hb/views/PinnedSectionListView.java	/^		public int position;$/;"	f	class:PinnedSectionListView.PinnedViewShadow
+s:cpo_save	Session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+sCheeseStrings	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    public static final String[] sCheeseStrings = {$/;"	f	class:IndexableListViewActivity
+sInstance	src/com/woozzu/android/util/HanziToPingyin.java	/^    private static HanziToPingyin sInstance;$/;"	f	class:HanziToPingyin	file:
+setAdapter	pinned/src/com/hb/views/PinnedSectionListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:PinnedSectionListView
+setAdapter	src/com/woozzu/android/widget/IndexScroller.java	/^	public void setAdapter(Adapter adapter) {$/;"	m	class:IndexScroller
+setAdapter	src/com/woozzu/android/widget/IndexableListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:IndexableListView
+setFastScrollEnabled	src/com/woozzu/android/widget/IndexableListView.java	/^	public void setFastScrollEnabled(boolean enabled) {$/;"	m	class:IndexableListView
+setOnScrollListener	pinned/src/com/hb/views/PinnedSectionListView.java	/^	public void setOnScrollListener(OnScrollListener listener) {$/;"	m	class:PinnedSectionListView
+setState	src/com/woozzu/android/widget/IndexScroller.java	/^	private void setState(int state) {$/;"	m	class:IndexScroller	file:
+show	src/com/woozzu/android/widget/IndexScroller.java	/^	public void show() {$/;"	m	class:IndexScroller
+source	src/com/woozzu/android/util/HanziToPingyin.java	/^        public String source;$/;"	f	class:HanziToPingyin.Token
+string	gen/com/woozzu/android/indexablelistview/R.java	/^    public static final class string {$/;"	c	class:R
+target	src/com/woozzu/android/util/HanziToPingyin.java	/^        public String target;$/;"	f	class:HanziToPingyin.Token
+text	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^            private String text;$/;"	f	class:IndexableListViewActivity.ContentAdapter.Item	file:
+type	src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^            public int type;$/;"	f	class:IndexableListViewActivity.ContentAdapter.Item
+type	src/com/woozzu/android/util/HanziToPingyin.java	/^        public int type;$/;"	f	class:HanziToPingyin.Token
+updatePinnedListView	pinned/src/com/hb/views/PinnedSectionListView.java	/^    public void updatePinnedListView(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {$/;"	m	class:PinnedSectionListView
+view	pinned/src/com/hb/views/PinnedSectionListView.java	/^		public View view;$/;"	f	class:PinnedSectionListView.PinnedViewShadow
+yS	Session.vim	/^nmap yS <Plug>YSurround$/;"	m
+ySS	Session.vim	/^nmap ySS <Plug>YSsurround$/;"	m
+ySs	Session.vim	/^nmap ySs <Plug>YSsurround$/;"	m
+ys	Session.vim	/^nmap ys <Plug>Ysurround$/;"	m
+yss	Session.vim	/^nmap yss <Plug>Yssurround$/;"	m
+â	Session.vim	/^cmap â <S-Left>$/;"	m
+ä	Session.vim	/^cnoremap ä <S-Right>$/;"	m
+æ	Session.vim	/^cmap æ <S-Right>$/;"	m
+è	Session.vim	/^cnoremap è $/;"	m
+ê	Session.vim	/^nmap ê mz:m+$/;"	m
+ê	Session.vim	/^vmap ê :m'>+$/;"	m
+ë	Session.vim	/^nmap ë mz:m-2$/;"	m
+ë	Session.vim	/^vmap ë :m'<-2$/;"	m
