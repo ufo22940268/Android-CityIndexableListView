@@ -314,7 +314,7 @@ public class IndexableListViewActivity extends Activity {
             int type = getItemViewType(position);
             ((TextView)view).setText(mItems.get(position).text); 
             if (isItemViewTypePinned(type)) {
-                view.setBackgroundColor(Color.GREEN);
+                view.setBackgroundColor(0xff4dbdff);
             } else {
                 view.setBackgroundColor(Color.WHITE);
             }
