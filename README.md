@@ -7,8 +7,8 @@ Implement `TableView` in iphone on android. Add indexer to 'ListView'. When user
 
 #How to use in your project
 
-java
-'''
+
+```java
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +29,7 @@ java
         mListView.setAdapter(adapter);
         mListView.setFastScrollEnabled(true);
     }
-'''
+```
 
 #ScreenShot
 ![screenshot](screenshot.png)
