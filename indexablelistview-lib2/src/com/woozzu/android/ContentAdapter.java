@@ -31,11 +31,18 @@ public class ContentAdapter extends BaseAdapter implements SectionIndexer, Pinne
     private Context mContext;
     private Map<String, Character> mCityMap = new HashMap<String, Character>();
     private int mSkipItemCount;
-
+    
     public ContentAdapter(Context context, List<String> popCities, List<String> cities) {
+        this(context, popCities, cities, null);
+    }
+
+    public ContentAdapter(Context context, List<String> popCities, List<String> cities, Map<String, Character> cityMap) {
+        mCityMap = cityMap;
         mContext = context;
         mItems = new ArrayList<Item>();
-        mCityMap = buildCityMap(cities);
+        if (mCityMap == null) {
+            mCityMap = buildCityMap(cities);
+        }
         Collections.sort(cities, new CityComparator());
 
         //Popular cities.
@@ -167,8 +174,13 @@ public class ContentAdapter extends BaseAdapter implements SectionIndexer, Pinne
         return 2;
     }
 
-    @Override public boolean isItemViewTypePinned(int type) {
-    return type == TYPE_SECTION;
+    @Override 
+    public boolean isItemViewTypePinned(int type) {
+        return type == TYPE_SECTION;
+    }
+
+    public boolean isPinned(int pos) {
+        return getItemViewType(pos) == TYPE_SECTION;
     }
 
     @Override
@@ -206,14 +218,11 @@ public class ContentAdapter extends BaseAdapter implements SectionIndexer, Pinne
         Map<String, Character> map = new HashMap<String, Character>();
         for (String str : strs) {
             map.put(str, parseFirstChar(str));
+            map.put(str, 'a');
         }
         return map;
     }
 
-    public class Item {
-        public int type;
-        public String text;
-    }
 
     public class CityComparator<T> implements Comparator<T> {
         @Override
@@ -227,4 +236,9 @@ public class ContentAdapter extends BaseAdapter implements SectionIndexer, Pinne
         }
     }
 
+
+    public static class Item {
+        public int type;
+        public String text;
+    }
 }

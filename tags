@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CITIES	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    public static final String[] CITIES = {"安徽省", "地级市", "合肥", "宿州", "淮北", "阜阳", "蚌埠", "淮南", "滁州", "马鞍",$/;"	f	class:IndexableListViewActivity
+COLLATOR	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final Collator COLLATOR = Collator.getInstance(Locale.CHINA);$/;"	f	class:HanziToPingyin	file:
+CityComparator	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public class CityComparator<T> implements Comparator<T> {$/;"	c	class:ContentAdapter
+ContentAdapter	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public ContentAdapter(Context context, List<String> popCities, List<String> cities) {$/;"	m	class:ContentAdapter
+ContentAdapter	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^public class ContentAdapter extends BaseAdapter implements SectionIndexer, PinnedSectionListAdapter {$/;"	c
+DEBUG	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final boolean DEBUG = false;$/;"	f	class:HanziToPingyin	file:
+DialerSearchToken	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private class DialerSearchToken extends Token {$/;"	c	class:HanziToPingyin
+FIRSTCASE	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        static final int FIRSTCASE = 0;$/;"	f	class:HanziToPingyin.DialerSearchToken
+FIRST_PINYIN_UNIHAN	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final String FIRST_PINYIN_UNIHAN = "\\u963F";$/;"	f	class:HanziToPingyin	file:
+FIRST_UNIHAN	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final char FIRST_UNIHAN = '\\u3400';$/;"	f	class:HanziToPingyin	file:
+HanziToPingyin	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    protected HanziToPingyin(boolean hasChinaCollator) {$/;"	m	class:HanziToPingyin
+HanziToPingyin	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^public class HanziToPingyin {$/;"	c
+IndexScroller	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public IndexScroller(Context context, ListView lv) {$/;"	m	class:IndexScroller
+IndexScroller	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^public class IndexScroller {$/;"	c
+IndexableListView	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public IndexableListView(Context context, AttributeSet attrs) {$/;"	m	class:IndexableListView
+IndexableListView	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public IndexableListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:IndexableListView
+IndexableListView	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^public class IndexableListView extends com.hb.views.PinnedSectionListView{$/;"	c
+IndexableListViewActivity	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^public class IndexableListViewActivity extends Activity {$/;"	c
+Item	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public static class Item {$/;"	c	class:ContentAdapter
+KOREAN_INITIAL	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private final static char[] KOREAN_INITIAL = {'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ'$/;"	f	class:StringMatcher	file:
+KOREAN_UNICODE_END	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private final static char KOREAN_UNICODE_END = '힣';$/;"	f	class:StringMatcher	file:
+KOREAN_UNICODE_START	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private final static char KOREAN_UNICODE_START = '가';$/;"	f	class:StringMatcher	file:
+KOREAN_UNIT	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private final static char KOREAN_UNIT = '까' - '가';$/;"	f	class:StringMatcher	file:
+LAST_PINYIN_UNIHAN	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final String LAST_PINYIN_UNIHAN = "\\u84D9";$/;"	f	class:HanziToPingyin	file:
+LATIN	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final int LATIN = 1;$/;"	f	class:HanziToPingyin.Token
+LOWERCASE	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        static final int LOWERCASE = 2;$/;"	f	class:HanziToPingyin.DialerSearchToken
+PINYIN	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final int PINYIN = 2;$/;"	f	class:HanziToPingyin.Token
+PINYINS	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static final byte[][] PINYINS = { { 65, 0, 0, 0, 0, 0 },$/;"	f	class:HanziToPingyin
+POPULAR_CITIES	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    public static final String[] POPULAR_CITIES = {"安徽省", "地级市", "合肥", "宿州", "淮北", "阜阳", "蚌埠", "淮南", "滁州", "马鞍",};$/;"	f	class:IndexableListViewActivity
+PinnedSectionListAdapter	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	public static interface PinnedSectionListAdapter extends ListAdapter {$/;"	i	class:PinnedSectionListView
+PinnedSectionListView	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	public PinnedSectionListView(Context context, AttributeSet attrs) {$/;"	m	class:PinnedSectionListView
+PinnedSectionListView	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	public PinnedSectionListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:PinnedSectionListView
+PinnedSectionListView	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^public class PinnedSectionListView extends ListView {$/;"	c
+PinnedViewShadow	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	static class PinnedViewShadow {$/;"	c	class:PinnedSectionListView
+RUN	indexablelistview-lib2/Makefile	/^RUN := adb shell "am start -n  com.woozzu.android.indexablelistview\/.IndexableListViewActivity"$/;"	m
+SECTION_POPULAR_CITY	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private final int SECTION_POPULAR_CITY = 0;$/;"	f	class:ContentAdapter	file:
+SEPARATOR	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final String SEPARATOR = " ";$/;"	f	class:HanziToPingyin.Token
+STATE_HIDDEN	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_HIDDEN = 0;$/;"	f	class:IndexScroller	file:
+STATE_HIDING	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_HIDING = 3;$/;"	f	class:IndexScroller	file:
+STATE_SHOWING	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_SHOWING = 1;$/;"	f	class:IndexScroller	file:
+STATE_SHOWN	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private static final int STATE_SHOWN = 2;$/;"	f	class:IndexScroller	file:
+StringMatcher	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^public class StringMatcher {$/;"	c
+TAG	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static final String TAG = "HanziToPinyin";$/;"	f	class:HanziToPingyin	file:
+TYPE_ITEM	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private int TYPE_ITEM = 0;$/;"	f	class:ContentAdapter	file:
+TYPE_SECTION	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private int TYPE_SECTION = 1;$/;"	f	class:ContentAdapter	file:
+Token	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public Token() {$/;"	m	class:HanziToPingyin.Token
+Token	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public Token(int type, String source, String target) {$/;"	m	class:HanziToPingyin.Token
+Token	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static class Token {$/;"	c	class:HanziToPingyin
+UNIHANS	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static final char[] UNIHANS = { '\\u5475', '\\u54ce', '\\u5b89',$/;"	f	class:HanziToPingyin
+UNKNOWN	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public static final int UNKNOWN = 3;$/;"	f	class:HanziToPingyin.Token
+UPPERCASE	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        static final int UPPERCASE = 1;$/;"	f	class:HanziToPingyin.DialerSearchToken
+addOffsets	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private void addOffsets(final StringBuilder sb,$/;"	m	class:HanziToPingyin	file:
+addSubString	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private void addSubString(final ArrayList<Token> tokens,$/;"	m	class:HanziToPingyin	file:
+addToken	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private void addToken(final StringBuilder sb,$/;"	m	class:HanziToPingyin	file:
+buildCityMap	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private Map<String, Character> buildCityMap(List<String> strs) {$/;"	m	class:ContentAdapter	file:
+com.hb.views	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^package com.hb.views;$/;"	p
+com.woozzu.android.indexablelistview	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^package com.woozzu.android.indexablelistview;$/;"	p
+com.woozzu.android.indexablelistview	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^package com.woozzu.android.indexablelistview;$/;"	p
+com.woozzu.android.util	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^package com.woozzu.android.util;$/;"	p
+com.woozzu.android.util	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^package com.woozzu.android.util;$/;"	p
+com.woozzu.android.widget	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^package com.woozzu.android.widget;$/;"	p
+com.woozzu.android.widget	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^package com.woozzu.android.widget;$/;"	p
+compare	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^        public int compare(T lhs, T rhs) {$/;"	m	class:ContentAdapter.CityComparator
+contains	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private boolean contains(float x, float y) {$/;"	m	class:IndexScroller	file:
+createPinnedShadow	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private void createPinnedShadow(int position) {$/;"	m	class:PinnedSectionListView	file:
+destroyPinnedShadow	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private void destroyPinnedShadow() {$/;"	m	class:PinnedSectionListView	file:
+dispatchDraw	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	protected void dispatchDraw(Canvas canvas) {$/;"	m	class:PinnedSectionListView
+doSelfValidation	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static boolean doSelfValidation() {$/;"	m	class:HanziToPingyin	file:
+draw	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public void draw(Canvas canvas) {$/;"	m	class:IndexScroller
+draw	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public void draw(Canvas canvas) {$/;"	m	class:IndexableListView
+equals	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^        public boolean equals(Object object) {$/;"	m	class:ContentAdapter.CityComparator
+fade	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private void fade(long delay) {$/;"	m	class:IndexScroller	file:
+findCurrentSectionPosition	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private int findCurrentSectionPosition(int fromPosition) {$/;"	m	class:PinnedSectionListView	file:
+findFirstVisibleSectionPosition	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private int findFirstVisibleSectionPosition(int firstVisibleItem, int visibleItemCount) {$/;"	m	class:PinnedSectionListView	file:
+get	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public ArrayList<Token> get(final String input) {$/;"	m	class:HanziToPingyin
+getCount	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public int getCount() {$/;"	m	class:ContentAdapter
+getFirstPinYin	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static String getFirstPinYin(String source){ $/;"	m	class:HanziToPingyin
+getFirstPinYinChar	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static char getFirstPinYinChar(String source){ $/;"	m	class:HanziToPingyin
+getInitialSound	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private static char getInitialSound(char c) {$/;"	m	class:StringMatcher	file:
+getInstance	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static HanziToPingyin getInstance() {$/;"	m	class:HanziToPingyin
+getItem	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public Object getItem(int position) {$/;"	m	class:ContentAdapter
+getItemId	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public long getItemId(int position) {$/;"	m	class:ContentAdapter
+getItemViewType	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public int getItemViewType(int position) {$/;"	m	class:ContentAdapter
+getPinYin	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public static String getPinYin(String input) {$/;"	m	class:HanziToPingyin
+getPositionForSection	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public int getPositionForSection(int section) {$/;"	m	class:ContentAdapter
+getSectionByPoint	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private int getSectionByPoint(float y) {$/;"	m	class:IndexScroller	file:
+getSectionForPosition	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public int getSectionForPosition(int position) {$/;"	m	class:ContentAdapter
+getSections	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public Object[] getSections() {$/;"	m	class:ContentAdapter
+getToken	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private Token getToken(char character) {$/;"	m	class:HanziToPingyin	file:
+getTokensForDialerSearch	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    public String getTokensForDialerSearch(final String input,$/;"	m	class:HanziToPingyin
+getView	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:ContentAdapter
+getViewTypeCount	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public int getViewTypeCount() {$/;"	m	class:ContentAdapter
+hide	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public void hide() {$/;"	m	class:IndexScroller
+initView	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private void initView() {$/;"	m	class:PinnedSectionListView	file:
+isFastScrollEnabled	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public boolean isFastScrollEnabled() {$/;"	m	class:IndexableListView
+isInitialSound	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private static boolean isInitialSound(char c) {$/;"	m	class:StringMatcher	file:
+isItemViewTypePinned	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^		boolean isItemViewTypePinned(int viewType);$/;"	m	interface:PinnedSectionListView.PinnedSectionListAdapter
+isItemViewTypePinned	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public boolean isItemViewTypePinned(int type) {$/;"	m	class:ContentAdapter
+isKorean	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	private static boolean isKorean(char c) {$/;"	m	class:StringMatcher	file:
+isPinned	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    public boolean isPinned(int pos) {$/;"	m	class:ContentAdapter
+lookupFirstChar	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private char lookupFirstChar(String str) {$/;"	m	class:ContentAdapter	file:
+mAlphaRate	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private float mAlphaRate;$/;"	f	class:IndexScroller	file:
+mCityMap	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private Map<String, Character> mCityMap = new HashMap<String, Character>();$/;"	f	class:ContentAdapter	file:
+mContext	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private Context mContext;$/;"	f	class:ContentAdapter	file:
+mCurrentSection	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private int mCurrentSection = -1;$/;"	f	class:IndexScroller	file:
+mDelegateOnScrollListener	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private OnScrollListener mDelegateOnScrollListener;$/;"	f	class:PinnedSectionListView	file:
+mDensity	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private float mDensity;$/;"	f	class:IndexScroller	file:
+mGestureDetector	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	private GestureDetector mGestureDetector = null;$/;"	f	class:IndexableListView	file:
+mHandler	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private Handler mHandler = new Handler() {$/;"	f	class:IndexScroller	file:
+mHasChinaCollator	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private final boolean mHasChinaCollator;$/;"	f	class:HanziToPingyin	file:
+mIndexbarMargin	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private float mIndexbarMargin;$/;"	f	class:IndexScroller	file:
+mIndexbarRect	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private RectF mIndexbarRect;$/;"	f	class:IndexScroller	file:
+mIndexbarWidth	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private float mIndexbarWidth;$/;"	f	class:IndexScroller	file:
+mIndexer	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private SectionIndexer mIndexer = null;$/;"	f	class:IndexScroller	file:
+mIsFastScrollEnabled	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	private boolean mIsFastScrollEnabled = false;$/;"	f	class:IndexableListView	file:
+mIsIndexing	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private boolean mIsIndexing = false;$/;"	f	class:IndexScroller	file:
+mItems	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private List<Item> mItems;$/;"	f	class:ContentAdapter	file:
+mItems	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^	private ArrayList<String> mItems;$/;"	f	class:IndexableListViewActivity	file:
+mListView	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private ListView mListView = null;$/;"	f	class:IndexScroller	file:
+mListView	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^	private IndexableListView mListView;$/;"	f	class:IndexableListViewActivity	file:
+mListViewHeight	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private int mListViewHeight;$/;"	f	class:IndexScroller	file:
+mListViewWidth	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private int mListViewWidth;$/;"	f	class:IndexScroller	file:
+mOnScrollListener	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	private OnScrollListener mOnScrollListener = new OnScrollListener() {$/;"	f	class:PinnedSectionListView	file:
+mPinnedShadow	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	PinnedViewShadow mPinnedShadow;$/;"	f	class:PinnedSectionListView
+mPreviewPadding	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private float mPreviewPadding;$/;"	f	class:IndexScroller	file:
+mRecycleShadow	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	PinnedViewShadow mRecycleShadow;$/;"	f	class:PinnedSectionListView
+mScaledDensity	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private float mScaledDensity;$/;"	f	class:IndexScroller	file:
+mScroller	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	private IndexScroller mScroller = null;$/;"	f	class:IndexableListView	file:
+mSections	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private List<String> mSections = new ArrayList<String>();$/;"	f	class:ContentAdapter	file:
+mSections	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private String[] mSections = null;$/;"	f	class:IndexScroller	file:
+mSkipItemCount	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private int mSkipItemCount;$/;"	f	class:ContentAdapter	file:
+mState	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private int mState = STATE_HIDDEN;$/;"	f	class:IndexScroller	file:
+mTranslateY	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	int mTranslateY;$/;"	f	class:PinnedSectionListView
+match	indexablelistview-lib2/src/com/woozzu/android/util/StringMatcher.java	/^	public static boolean match(String value, String keyword) {$/;"	m	class:StringMatcher
+onCreate	indexablelistview-sample/src/com/woozzu/android/indexablelistview/IndexableListViewActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:IndexableListViewActivity
+onInterceptTouchEvent	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public boolean onInterceptTouchEvent(MotionEvent ev) {$/;"	m	class:IndexableListView
+onRestoreInstanceState	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	public void onRestoreInstanceState(Parcelable state) {$/;"	m	class:PinnedSectionListView
+onSizeChanged	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public void onSizeChanged(int w, int h, int oldw, int oldh) {$/;"	m	class:IndexScroller
+onSizeChanged	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	protected void onSizeChanged(int w, int h, int oldw, int oldh) {$/;"	m	class:IndexableListView
+onTouchEvent	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public boolean onTouchEvent(MotionEvent ev) {$/;"	m	class:IndexScroller
+onTouchEvent	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public boolean onTouchEvent(MotionEvent ev) {$/;"	m	class:IndexableListView
+parseFirstChar	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^    private char parseFirstChar(String str) {$/;"	m	class:ContentAdapter	file:
+position	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^		public int position;$/;"	f	class:PinnedSectionListView.PinnedViewShadow
+sInstance	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^    private static HanziToPingyin sInstance;$/;"	f	class:HanziToPingyin	file:
+setAdapter	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:PinnedSectionListView
+setAdapter	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public void setAdapter(Adapter adapter) {$/;"	m	class:IndexScroller
+setAdapter	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public void setAdapter(ListAdapter adapter) {$/;"	m	class:IndexableListView
+setFastScrollEnabled	indexablelistview-lib2/src/com/woozzu/android/widget/IndexableListView.java	/^	public void setFastScrollEnabled(boolean enabled) {$/;"	m	class:IndexableListView
+setOnScrollListener	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^	public void setOnScrollListener(OnScrollListener listener) {$/;"	m	class:PinnedSectionListView
+setState	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	private void setState(int state) {$/;"	m	class:IndexScroller	file:
+show	indexablelistview-lib2/src/com/woozzu/android/widget/IndexScroller.java	/^	public void show() {$/;"	m	class:IndexScroller
+source	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public String source;$/;"	f	class:HanziToPingyin.Token
+target	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public String target;$/;"	f	class:HanziToPingyin.Token
+text	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^        public String text;$/;"	f	class:ContentAdapter.Item
+type	indexablelistview-lib2/src/com/woozzu/android/ContentAdapter.java	/^        public int type;$/;"	f	class:ContentAdapter.Item
+type	indexablelistview-lib2/src/com/woozzu/android/util/HanziToPingyin.java	/^        public int type;$/;"	f	class:HanziToPingyin.Token
+updatePinnedListView	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^    public void updatePinnedListView(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {$/;"	m	class:PinnedSectionListView
+view	indexablelistview-lib1/src/com/hb/views/PinnedSectionListView.java	/^		public View view;$/;"	f	class:PinnedSectionListView.PinnedViewShadow
