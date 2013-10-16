@@ -9,6 +9,7 @@
     <name>Library Projects Parent</name>
 
     <modules>
+        <module>indexablelistview-lib1</module>
         <module>indexablelistview-lib2</module>
         <module>indexablelistview-sample</module>
     </modules>
